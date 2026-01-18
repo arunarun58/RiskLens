@@ -1,0 +1,1 @@
+web: gunicorn risklens.asgi:application -k uvicorn.workers.UvicornWorker
