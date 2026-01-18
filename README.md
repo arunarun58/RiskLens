@@ -54,7 +54,7 @@ cd /Users/arun/Desktop/Exposure
 
 2. **Backend Setup**:
 ```bash
-cd RiskLens
+cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -151,7 +151,7 @@ curl -X POST http://localhost:8000/api/scenarios/covid_crash/test?portfolio_valu
 
 ### Backend Development
 ```bash
-cd RiskLens
+cd backend
 source venv/bin/activate
 python manage.py runserver
 ```
@@ -171,7 +171,7 @@ npm run dev
 
 ```
 Exposure/
-├── RiskLens/              # Django backend
+├── backend/               # Django backend
 │   ├── api/
 │   │   ├── risk_engine.py    # Core risk calculations
 │   │   ├── monte_carlo.py    # Monte Carlo simulations
