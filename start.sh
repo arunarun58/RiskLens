@@ -15,7 +15,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Check if we're in the right directory
-if [ ! -d "RiskLens" ] && [ ! -d "frontend" ]; then
+if [ ! -d "backend" ] && [ ! -d "frontend" ]; then
     echo "❌ Error: Please run this script from the Exposure directory"
     exit 1
 fi
